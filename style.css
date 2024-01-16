@@ -29,39 +29,6 @@ body {
     color: var(--offWhite);
 }
 
-/* page content */
-#content {
-    position: relative
-}
-
-.content {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    min-height: 50vh;
-    max-width: 50vh;
-
-    z-index: 2;
-    text-align: center;
-    color: #FFFFFF;
-
-
-    /* glass effect  */
-    background: rgba(255, 255, 255, 0.19);
-    border-radius: 16px;
-    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-    backdrop-filter: blur(4.9px);
-    -webkit-backdrop-filter: blur(4.9px);
-    border: 1px solid rgba(255, 255, 255, 0.09);
-}
-
-    .content-sub {
-        font-family: $displayFont;
-    }
-
-
 /* backdrop */
 .backdrop {
     z-index: 1;
